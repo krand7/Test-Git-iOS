@@ -21,6 +21,7 @@
 		6D8E428B19A3C97300481491 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8E426D19A3C97300481491 /* UIKit.framework */; };
 		6D8E429319A3C97300481491 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D8E429119A3C97300481491 /* InfoPlist.strings */; };
 		6D8E429519A3C97300481491 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8E429419A3C97300481491 /* Git_TestTests.m */; };
+		6D8E42A019A3CC4D00481491 /* KPRTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8E429F19A3CC4D00481491 /* KPRTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6D8E429019A3C97300481491 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		6D8E429219A3C97300481491 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D8E429419A3C97300481491 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		6D8E429E19A3CC4D00481491 /* KPRTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPRTest.h; sourceTree = "<group>"; };
+		6D8E429F19A3CC4D00481491 /* KPRTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPRTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				6D8E427B19A3C97300481491 /* Main.storyboard */,
 				6D8E427E19A3C97300481491 /* KPRViewController.h */,
 				6D8E427F19A3C97300481491 /* KPRViewController.m */,
+				6D8E429E19A3CC4D00481491 /* KPRTest.h */,
+				6D8E429F19A3CC4D00481491 /* KPRTest.m */,
 				6D8E428119A3C97300481491 /* Images.xcassets */,
 				6D8E427019A3C97300481491 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D8E427A19A3C97300481491 /* KPRAppDelegate.m in Sources */,
+				6D8E42A019A3CC4D00481491 /* KPRTest.m in Sources */,
 				6D8E428019A3C97300481491 /* KPRViewController.m in Sources */,
 				6D8E427619A3C97300481491 /* main.m in Sources */,
 			);
